@@ -19,3 +19,7 @@ git commit -m "init: начальная структура проекта
 git remote add origin https://github.com/ВАШ_ЛОГИН/habit-tracker.git
 git branch -M main
 git push -u origin main
+# Добавляем и коммитим
+git add habits.py
+git commit -m "feat: базовый интерфейс с обработкой команд help и exit"
+git push
